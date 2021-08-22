@@ -22,19 +22,19 @@
                     </header>
                     <div class="pt-5">
                         <h4>Memory</h4>
-                        <button id="memory-button1" class="btn btn-outline-dark">8GB unified memory</button>
-                        <button id="memory-button2" class="btn btn-outline-dark">16GB unified memory</button>
+                        <button id="memory-button1" value="0" class="btn btn-outline-dark" >8GB unified memory</button>
+                        <button id="memory-button2" value="180" class="btn btn-outline-dark" >16GB unified memory</button>
                     </div>
                     <div class="pt-5">
                         <h4>Storage</h4>
-                        <button id="storage-button1" class="btn btn-outline-dark">256GB SSD storage</button>
-                        <button id="storage-button2" class="btn btn-outline-dark">512GB SSD storage</button>
-                        <button id="storage-button2" class="btn btn-outline-dark">1TB SSD storage</button>
+                        <button id="storage-button1" value="0" class="btn btn-outline-dark">256GB SSD storage</button>
+                        <button id="storage-button2" value="100" class="btn btn-outline-dark">512GB SSD storage</button>
+                        <button id="storage-button3" value="180" class="btn btn-outline-dark">1TB SSD storage</button>
                     </div>
                     <div class="pt-5">
                         <h4>Choose your delivery option</h4>
-                        <button id="delivery-button1" class="btn btn-outline-dark">Friday, Aug 25 FREE Prime Delivery</button>
-                        <button id="delivery-button1" class="btn btn-outline-dark">Friday,Aug 21 Delivery charge $20</button>
+                        <button id="delivery-button1" value="0" class="btn btn-outline-dark">Friday, Aug 25 FREE Prime Delivery</button>
+                        <button id="delivery-button2" value="20" class="btn btn-outline-dark">Friday,Aug 21 Delivery charge $20</button>
                     </div>
                     <div class="py-5 col-md-6">
                         <table class="table">
@@ -42,25 +42,25 @@
                             <tbody>
                               <tr>
                                 <th>Best Price</th>
-                                <th>$<span>1299</span></th>
+                                <th>$<span id="best-price">1299</span></th>
                               </tr>
                               <tr>
                                 <th>Extra Memory Cost</th>
-                                <th>$<span>0</span></th>
+                                <th>$<span id="extraMemory-cost">0</span></th>
                               </tr>
                               <tr>
                                 <th>Extra Storage Cost</th>
-                                <th>$<span>0</span></th>
+                                <th>$<span id="extraStorage-cost">0</span></th>
                               </tr>
                               <tr>
                                 <th>Delivery charge</th>
-                                <th>$<span>0</span></th>
+                                <th>$<span id="delivery-charge">0</span></th>
                               </tr>
                             </tbody>
                             <tfoot>
                                 <tr>
-                                    <th>Best Price</th>
-                                    <th>$<span>1299</span></th>
+                                    <th>Total Price</th>
+                                    <th>$<span id="total-price">1299</span></th>
                                 </tr>
                             </tfoot>
                         </table>
